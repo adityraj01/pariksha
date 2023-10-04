@@ -26,7 +26,7 @@ import com.example.demo.model.JwtResonse;
 import com.example.demo.model.User;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 //@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/auth")
 public class AuthenticateController {

@@ -22,7 +22,7 @@ import com.example.demo.model.UserRole;
 import com.example.demo.service.UserService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping("/user")
 public class UserController {
 	
